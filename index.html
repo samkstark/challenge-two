@@ -8,52 +8,51 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-    <h1 class="page-title"> Samantha Stark</h1>
-
-    <nav>
-        <ul>
-            <li> 
-                <a href="#">About Me</a>
-            </li>
-            <li>
-                <a href="#">My Work</a>
-            </li>
-            <li>
-                <a href="#">Resume</a>
-        
-            <li>
-                <a href="#">Contact</a>
-            </li>
-
-        </ul>
+    <nav class="nav-bar">
+        <a href="#about-me">About Me</a>
+        <a href="#my-work">My Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
     </nav>
+<header id="top">
+    <h1 class="page-title"> Samantha Stark</h1>
 </header>
 
 <main>
-    <section class="container">
-        <div class="about-me">
-            <h2>About Me</h2>
-            <div>
+<section class="disco-img">
+    <img src="./assets/discoball.jpg" alt="Disco Ball">
+</section>
+    <section class="about-me">
+        <div class="card-column">
+            <h2 class="card-header">About Me</h2>
+            <div class="card-body">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum exercitationem ullam corpor</p>
             </div>
-        </div>
+        </section>
 
-        <div class="my-work">
-        <h2>My Work</h2>
-       
+        <div class="my work">
+            <section class="card">
+                <header>Surf Report</header>
+                <img src="./assets/butterflies.jpg" alt="butterflies">
+            </section> 
+            <section class="card">
+                <header>LED Wall</header>
+                <img src="./assets/butterflies.jpg" alt="butterflies>">
+            </section>
+            <section class="card">
+                <header>Run Buddy</header>
+                <img src="./assets/butterflies.jpg" alt="butterflies">
+            </section>
+            
         </div>
         
-
-        </div>
-
-        </div>
-    </section>
+    
+    
+    
 </main>
 
 <footer>
-    <div class="container">
+    <div class="footer">
         <h3 class=contact-me>Contact Me</h3>
         <div class="row">
             <a href="#">Phone</a>
