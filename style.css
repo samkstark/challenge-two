@@ -1,3 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+padding: 50px;
+text-align: right;
+background-color: rgb(81, 181, 227)
+}
+
+header h1 {
+}
+
+body{
+font-family: 'Gill Sans', 'Gill Sans MT';
+margin: 0;
+display: flex;
+flex-direction: column;
+min-width: 100 px;
+justify-content: flex-start;
+}
 a {
     text-decoration: none;
     color: white;
@@ -23,24 +44,29 @@ body{
     border-radius: 10px;
     padding: 10px;
     flex: 0 0 100px;
-    transform:
     box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
 
-.butterflies.jpg {
-    object-fit: fill;
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    left: 0;
 }
+
+.butterfly {
+    display: flex;
+    height: 50px
+    width: 50px
+}
+
 
 .disco-img {
     display: flex;
-    border: 5px solid r
+    height:300px;
+    width: 500px;
+    border: 5px solid;
     object-fit: fill;
-
 }
+
 footer {
+    border: 30px;
     display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
