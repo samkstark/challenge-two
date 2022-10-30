@@ -7,3 +7,8 @@ Samantha-Portfolio was created as our first step into creating our own webpage w
 
 https://samkstark.github.io/samantha-portfolio/
 https://github.com/samkstark/samantha-portfolio
+
+## Usage
+
+This page can be used on both a traditional desktop browser and smaller screens.
+
