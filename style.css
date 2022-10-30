@@ -2,16 +2,23 @@
     box-sizing: border-box;
 }
 
-nav {
-    font-size: 20px;
+.nav-bar {
+
+    font-size: 30px;
+    padding: 3f0px;
     display: flex;
     justify-content: space-around;
+}
+
+.nav-bar:hover {
+    box-shadow: inset 0px 0px 8px;
 }
 
 header {
 
     margin-top:10px;
     border: red solid;
+    font-size: 100px;
 text-align: center;
 color: #549bad;
 background-color: #f0e1de;
@@ -44,27 +51,59 @@ body{
  
 }
 
-.headshot {
-    display: flex;
-    width: 30%;
-}
+
+
 
 .container {
-
-    display: flex;
-    flex-wrap: wrap;
- justify-content: space-between;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
 }
 
+.headshot {
+    flex-basis: 40%;
+}
+
+img {
+    max-width: 100%;
+    border: 1px black solid;
+    
+}
+
+.about-me {
+    font-size: 20px;
+    padding-left: 20px;;
+    text: wrap
+}
+
+
+.container-2 {
+position: relative;
+text-align: center;
+color: black;
+    display: flex;
+    flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.top-left {
+    position: absolute;
+   margin: 20px; 
+    top: 40px;
+    left: 40px;
+
+
+}
 
 
 .big-card:nth-child(3n), .surf
 {
 width: 100%;
-height:;
+height:500px;
 border-style: solid;
-border-width: 1px;
-width: ;
+border-width: 1px; 
+
 border-radius: 10px;
 padding: 10px;
 box-shadow: 10px 10px 5px #aaaaaa;
@@ -72,14 +111,7 @@ margin: 20px;
 
 }
 
-/*.surf {
 
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-*/
 .card:hover, .surf:hover {
     box-shadow: inset 0px 0px 8px
 }
@@ -93,13 +125,6 @@ margin: 20px;
     box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
 
-}
-
-
-.card-header {
-display: flex;
-font-size: 30px;
-color:#549bad
 }
 
 .disco-img {
