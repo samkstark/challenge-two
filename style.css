@@ -18,7 +18,7 @@
 header {
 
     margin-top:10px;
-    border: red solid;
+    
     font-size: 100px;
 text-align: center;
 color: #549bad;
@@ -34,7 +34,7 @@ font-family: 'Gill Sans', 'Gill Sans MT';
 margin: 0;
 display: flex;
 flex-direction: column;
-min-width: 100 px;
+min-width: 100px;
 justify-content: flex-start;
 }
 a {
@@ -101,9 +101,13 @@ color: black;
 
 .top-left {
     position: absolute;
+    font-size: 50px;
    margin: 20px; 
+   border: 2px;
+   padding: 10px;
+   background-color: aliceblue;
     top: 40px;
-    left: 40px;
+    left: 25px;
 
 
 }
@@ -111,14 +115,14 @@ color: black;
 
 .big-card:nth-child(3n), .surf
 {
-width: 100%;
-height:500px;
+width: 95%;
 border-style: solid;
-border-width: 1px; 
-flex-basis: 0, 1;
+border-width: 1px;
+margin: 0 auto;
+flex-basis: 1;
 
-border-radius: 10px;
-padding: 10px;
+border-radius: 9px;
+padding: 1px
 box-shadow: 10px 10px 5px #aaaaaa;
 margin: 20px;
 
@@ -134,17 +138,18 @@ margin: 20px;
     border-width: 1px;
     width: 45%;
     border-radius: 10px;
-    padding: 10px;
+    padding: 1px;
     box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 20px;
+    margin: 2px;
 
 }
 
 .disco-img {
     display: flex;
+    margin: 0 auto;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:;
 }
  .my-work {
     display: flex;
