@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .nav-bar {
@@ -48,11 +49,7 @@ box-shadow: inset 0px 0px 8px;
 body{
     background-color: #f0e1de;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
-}
-
-
-
+ }
 
 .container {
 display: flex;
@@ -66,10 +63,8 @@ width: 100%;
 }
 
 img {
-    margin: 40px;
-    max-width: 100%;
-    border: 1px black solid;
-    
+    object-fit: fill;
+    width: 100%;    
 }
 
 .about-me {
@@ -165,20 +160,20 @@ margin: 20px;
     
  }
 
- header h3 {
+ .contact-me {
     display: flex;
     font: #549bad;
     font-size: 40px;
-    align: center;
-
  }
+
 
 footer {
 font-size: 30px;
 display: flex;
-font: #549bad;
+color: #549bad;
 font-size: 30px;
 font-weight: bold;
+align-items: center;
 justify-content: space-around;
 
 }
