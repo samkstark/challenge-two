@@ -12,3 +12,4 @@ https://github.com/samkstark/samantha-portfolio
 
 This page can be used on both a traditional desktop browser and smaller screens.
 
+![Getting Started](./assets/screenshot.jpg)
